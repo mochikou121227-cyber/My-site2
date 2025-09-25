@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>解せぬ解せぬ</title>
+  <link rel="icon" href="522px-Takezaki_Suenaga.jpg">
+  <link rel="stylesheet" href="my-site style.css">
+</head>
+
+<body>
+  <div class="all-wrapper">
+    <div class="takezaki">
+      <img src="522px-Takezaki_Suenaga.jpg" alt="我のアイコン">
+    </div>
+    <h1>解せぬ解せぬ</h1>
+    <div class="my-channel">
+      <p>Youtube</p>
+      <p>新作</p>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=xHXkPqJ9Z-0" target="_blank">Day by Day! (8bit)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=TKDK-VNJVDs&t=71s" target="_blank">Secret activity (8bit)</a></li>
+      </ul>
+    </div>
+    <div class="my-hist">
+      <table>
+        <thead>
+          <tr>
+            <td>年</td>
+            <td>事件</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2000</td>
+            <td>静岡県にて弱男として出現する</td>
+          </tr>
+          <tr>
+            <td>2024</td>
+            <td>愛の家の愛を拒む</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <footer>
+    <button class="change-swich">味変</button>
+    <small>(c)解せぬ解せぬ</small>
+  </footer>
+  <script>
+    document.querySelector('h1').addEventListener('click', () => {
+      document.querySelector('h1').textContent = '俺のハンドルネーム';
+    });
+
+    document.getElementsByClassName('change-swich')[0].addEventListener('click', () => {
+      if (confirm('え？ほんとにいいの？') === true) {
+        document.getElementsByClassName('all-wrapper')[0].classList.toggle('change');
+      }
+    });
+    document.querySelector('img').addEventListener('click',()=>{
+      document.querySelector('img').src="guro001.jpg";
+    });
+  </script>
+</body>
+
+</html>

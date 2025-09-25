@@ -1,0 +1,40 @@
+.all-wrapper{
+padding:64px;
+background-color: aqua;
+}
+.change{
+padding:64px;
+background-color: rgb(123, 255, 0);
+}
+h1{
+text-align:center;
+}
+.takezaki{
+width:100%;
+}
+.takezaki img{
+border-radius:50%;
+margin:auto;
+width:25%; 
+height:auto;
+display:block;
+}
+.my-hist{
+  margin-left:auto;
+  width:fit-content;
+}
+.my-hist table{
+  border-collapse: collapse;
+}
+.my-hist tr,td{
+  border:1px solid black;
+  padding:8px;
+  
+}
+.my-hist thead{
+  background: gray;
+}
+small{
+  text-align: right;
+display:block;
+}
